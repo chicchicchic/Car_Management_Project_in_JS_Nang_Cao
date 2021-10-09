@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #606770;
+}
+
+
+
+.input-place {
+    margin: 16px ;
+}
+
+.input-place #input {
+    background-color: #fff;
+    border-style: inset;
+}
+
+.input-place #submit {
+    color: #000;
+    background-color: #F1C40F ;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.input-place #submit:hover {
+    cursor: pointer;
+}
+
+#root {
+    list-style-type: none;
+    margin: 16px 0 16px 36px; 
+}
+
+#root li {
+    display: flex;
+    margin-top: 16px;
+}
+
+#root h1 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#root .delete {
+    background-color: #cc0000;
+    color: #fff;
+    padding: 2px;
+    margin-left: 8px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+#root .delete:hover {
+    cursor: pointer;
+}
